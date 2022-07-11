@@ -137,4 +137,4 @@ Now publish your Jekyll site by:
 
 Congratulations! Your blog should now be online.
 
-The obvious next step is to add a post similar the one you are reading now ([source code](https://github.com/rai-sandeep/rai-sandeep.github.io/tree/main/_posts/2022-07-09-how-did-i-create-this-website.md)). Follow [instructions on the Chirpy website](https://chirpy.cotes.page/posts/write-a-new-post/) and you should be set. 
+The obvious next step is to add a post similar the one you are reading now ([source code](https://github.com/rai-sandeep/rai-sandeep.github.io/tree/main/_posts/2022-07-10-how-did-i-create-this-blog.md)). Follow [instructions on the Chirpy website](https://chirpy.cotes.page/posts/write-a-new-post/) and you should be set. 
