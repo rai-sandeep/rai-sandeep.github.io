@@ -123,8 +123,6 @@ If you have committed `Gemfile.lock`{: .filepath} to the repo, and your runtime 
   $ bundle lock --add-platform x86_64-linux
   ```
 
-After the above steps, rename your repository to `<GH_USERNAME>.github.io` on GitHub.
-
 Now publish your Jekyll site by:
 
 1. Push any commit to remote to trigger the GitHub Actions workflow. Once the build is complete and successful, a new remote branch named `gh-pages` will appear to store the built site files.
