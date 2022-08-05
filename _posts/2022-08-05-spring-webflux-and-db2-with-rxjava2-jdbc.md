@@ -75,7 +75,7 @@ Note that rxjava2-jdbc returns [Flowable](http://reactivex.io/RxJava/3.x/javadoc
 
 ## 5. Code Repository
 
-You can find the full source code on [Github](https://github.com/rai-sandeep/java-reactive-api).
+You can find the full source code on [GitHub](https://github.com/rai-sandeep/java-reactive-api).
 
 ## 6. References
 
