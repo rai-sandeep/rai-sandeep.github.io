@@ -41,7 +41,7 @@ public Database database() {
             .build();
 }
 ```
-If you do not have a DB2 database for local testing, you can quickly setup one with Docker:
+If you do not have a DB2 database for local testing, you can quickly set up one with Docker:
 ```console
 docker run -itd --name db2 -e DBNAME=testdb -e DB2INST1_PASSWORD=testpass -e LICENSE=accept -p 50000:50000 --privileged=true ibmcom/db2
 ```
@@ -71,7 +71,7 @@ public Flux<Employee> getAllEmployees() {
     return Flux.from(employeeFlowable);
 }
 ```
-Note that rxjava2-jdbc returns [Flowable](http://reactivex.io/RxJava/3.x/javadoc/io/reactivex/rxjava3/core/Flowable.html), but we return a Flux instead for compatibility with Spring WebFlux. For more examples, see [Spring WebFlux and rxjava2-jdbc - Medium](https://medium.com/netifi/spring-webflux-and-rxjava2-jdbc-83a94e71ba04).
+Note that rxjava2-jdbc returns [Flowable](http://reactivex.io/RxJava/3.x/javadoc/io/reactivex/rxjava3/core/Flowable.html), but we return a Flux instead for compatibility with Spring WebFlux. For more examples, see [Spring WebFlux and rxjava2-jdbc](https://medium.com/netifi/spring-webflux-and-rxjava2-jdbc-83a94e71ba04).
 
 ## 5. Code Repository
 
