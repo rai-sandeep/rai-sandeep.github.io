@@ -1,6 +1,6 @@
 ---
 title: Spring WebFlux with WebSockets for Real-time Data
-date: 2023-01-22 12:30:00 +0530
+date: 2023-01-22 12:10:00 +0530
 categories: [Spring WebFlux, WebSockets]
 tags: [java, springboot, spring-webflux, websockets]
 ---
